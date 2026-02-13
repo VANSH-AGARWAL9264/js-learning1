@@ -42,9 +42,9 @@ JsUser.greeting = function() {
 }
 
 JsUser.greetingTwo = function() {
-    console.log(`Hello JS User, ${}`); // string to back-ticks <-- this is called string Interpolation.|| here   we use { this method } If we want to reference same object amnd
+    console.log(`Hello JS User, ${this.name}`); // string to back-ticks <-- this is called string Interpolation.|| here   we use { this method } If we want to reference same object and we get different properties in this object.
 }
 
-console.log(JsUser.greeting); //[Function (anonymous)] <-- yaha function execute nahi hua he bs uska reference aya he.
-
-// console.log(JsUser.greeting()); //
+// console.log(JsUser.greeting); //[Function (anonymous)] <-- yaha function execute nahi hua he bs uska reference aya he.
+// console.log(JsUser.greeting()); //here function is executed.
+console.log(JsUser.greetingTwo());
