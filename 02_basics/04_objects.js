@@ -51,12 +51,46 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLogged')); //false <--- this method is used to check that ki jo property hum use krne ki soch re he wo humare object me pehle se he bhi ki nahi ?
+// console.log(tinderUser.hasOwnProperty('isLogged')); //false <--- this method is used to check that ki jo property hum use krne ki soch re he wo humare object me pehle se he bhi ki nahi ?
 
 
+// ----------------------------------------------        de-structuring of Objects       --------------------------------------------------------------------------------
+const course = {
+    coursename: "JS in Hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor <--- we can use it ofcourse but sometimes it may become hectic to use it so we have another syntax:
+const {courseInstructor: Instructor} = course //isse ab hm sidha courseInstructor likh kr access kr sakte he or agr cousreInstructor name bda lg ra he to {courseInstructor: Instructor} <-- ye syntax de kr name chota bhi kr sakte he...
+
+// console.log(courseInstructor); //hitesh
+console.log(Instructor); //hitesh
+
+// ----------------------------------------------        API CONCEPTS       --------------------------------------------------------------------------------
+// API comes mostly in JSON (javascript notation) format:
+// may be like obejcts or be like objects in array:
+
+// 1.
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+//------------------//
+
+// 2.
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+//------------------//
