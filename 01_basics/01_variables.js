@@ -10,11 +10,11 @@ accountEmail = "hc@hs.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
 
-console.log(accountId);
+// console.log(accountId);
 
 /*
 Prefer not to use var
-because of issue in block scope and funtional scope
+because of issue in block scope and functional scope
 */
 
 

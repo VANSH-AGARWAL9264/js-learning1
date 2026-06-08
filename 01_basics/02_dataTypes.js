@@ -7,7 +7,7 @@ let isLoggedIn = false
 
 // number's range => 2 to power 53
 // bigint is used when dealing with large numbers.
-// string => should be in double quotes"" (we may also use single, but that;s not good practice)
+// string => should be in double quotes"" (we may also use single, but that's not good practice)
 // boolean => true/false
 // null => also it is a stand alone value
 // undefined => abhi value assgned nahi hui he .
