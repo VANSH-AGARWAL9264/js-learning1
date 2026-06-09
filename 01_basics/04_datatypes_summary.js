@@ -7,7 +7,7 @@
 
 // console.log(id === anotherId); // false(this is what Symbol mean to us)
 
-
+// const BigNumber = 123356576877665443n;
 
 
 // # 02. Referennce Type (Non-Primitive):

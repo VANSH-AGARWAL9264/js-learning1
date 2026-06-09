@@ -29,7 +29,8 @@ console.log(newStringOne.trim()); //remove starting and ending space
 const url = "https://hitesh.com/hitesh%20chaudhary"
 
 console.log(url.replace('%20', '-')) //https://hitesh.com/hitesh-chaudhary
-console.log(url.includes('hitesh')); //true
+console.log(url.includes('hitesh')); //true  ////includes <-- btata he ki wo chiz uss url me he ki nahi.
 console.log(url.includes('sundar')); //false
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-')); ////spit <-- btata he ki kisi chiz jaise ki "-" ke basis pr hum url ko tod sakte he
+
