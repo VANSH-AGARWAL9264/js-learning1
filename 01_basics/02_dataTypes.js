@@ -10,7 +10,7 @@ let isLoggedIn = false
 // string => should be in double quotes"" (we may also use single, but that's not good practice)
 // boolean => true/false
 // null => also it is a stand alone value
-// undefined => abhi value assgned nahi hui he .
+// undefined => abhi value assigned nahi hui he .
 // symbol => used mostly for uniqueness
 
 // object 
