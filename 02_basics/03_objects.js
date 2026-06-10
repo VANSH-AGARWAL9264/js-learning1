@@ -37,14 +37,14 @@ JsUser.email = "hitesh@microsoft.com"
 
 // // // now we are looking how functions act in JS, we can declare it just like variables also:
 
-JsUser.greeting = function() {
-    console.log("Hello JS User");
-}
+// JsUser.greeting = function() {
+//     console.log("Hello JS User");
+// }
 
-JsUser.greetingTwo = function() {
-    console.log(`Hello JS User, ${this.name}`); // string to back-ticks <-- this is called string Interpolation.|| here   we use { this method } If we want to reference same object and we get different properties in this object.
-}
+// JsUser.greetingTwo = function() {
+//     console.log(`Hello JS User, ${this.name}`); // string to back-ticks <-- this is called string Interpolation.|| here   we use { this method } If we want to reference same object and we get different properties in this object.
+// }
 
 // console.log(JsUser.greeting); //[Function (anonymous)] <-- yaha function execute nahi hua he bs uska reference aya he.
 // console.log(JsUser.greeting()); //here function is executed.
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greetingTwo());

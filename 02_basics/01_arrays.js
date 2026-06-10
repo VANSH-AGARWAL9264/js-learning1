@@ -30,7 +30,7 @@ console.log(myArr);
 
 
 
-// // slice, splice
+// // slice, splice <-- slice makes copy but splice makes changes in original array
 // console.log("A ", myArr); //A  [ 0, 1, 2, 3, 4, 5 ]
 
 // const myn1 = myArr.slice(1, 3)
