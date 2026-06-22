@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s ease,
+                color 0.5s ease;
+}
+
+.switcher {
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    background-color: lightgray;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+
+    font-size: 30px;
+    user-select: none;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.15s ease;
+    cursor: pointer;
+}
+
+.switcher:active{
+    transform: scale(0.92) rotate(1060deg);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+
+

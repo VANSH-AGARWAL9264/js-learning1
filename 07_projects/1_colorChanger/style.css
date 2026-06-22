@@ -9,6 +9,7 @@ span {
   margin: 100px auto 100px;
   width: 80%;
   text-align: center;
+  user-select: none;
 }
 
 .button {
@@ -16,6 +17,7 @@ span {
   height: 100px;
   border: solid black 2px;
   display: inline-block;
+  user-select: none;
 }
 
 #grey {
